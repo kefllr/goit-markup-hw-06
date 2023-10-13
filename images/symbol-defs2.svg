@@ -1,0 +1,15 @@
+<svg aria-hidden="true" style="position: absolute; width: 0; height: 0; overflow: hidden;" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<defs>
+<symbol id="icon-close-black-18dp-2-1" viewBox="0 0 32 32">
+<path d="M0 0h32v32h-32v-32z"></path>
+<path d="M-3536-448h5760v2688h-5760v-2688z"></path>
+<path d="M-3536-160h5760v2400h-5760v-2400z"></path>
+<path d="M-3536-160h5760v2400h-5760v-2400z"></path>
+<path d="M-3536-448h5760v2704h-5760v-2704z"></path>
+<path d="M-1456-128h1600c8.837 0 16 7.163 16 16v2304c0 8.837-7.163 16-16 16h-1600c-8.837 0-16-7.163-16-16v-2304c0-8.837 7.163-16 16-16z"></path>
+<path d="M64 16c0 26.51-21.49 48-48 48s-48-21.49-48-48c0-26.51 21.49-48 48-48s48 21.49 48 48z"></path>
+<path stroke-linejoin="miter" stroke-linecap="butt" stroke-miterlimit="4" stroke-width="4" d="M62 16c0 25.405-20.595 46-46 46s-46-20.595-46-46c0-25.405 20.595-46 46-46s46 20.595 46 46z"></path>
+<path d="M32 3.223l-3.223-3.223-12.777 12.777-12.777-12.777-3.223 3.223 12.777 12.777-12.777 12.777 3.223 3.223 12.777-12.777 12.777 12.777 3.223-3.223-12.777-12.777 12.777-12.777z"></path>
+</symbol>
+</defs>
+</svg>
