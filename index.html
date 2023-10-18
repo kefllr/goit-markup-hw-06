@@ -14,10 +14,11 @@
 </head>
 <body>
 
-    <header class="header">
+   <header class="header">
         <div class="container cont-header">
         <nav class="navig">
             <a href="./index.html" class="link logo">Web<span class="logo-name">Studio</span></a>
+           
             <ul class="list-nav">
                 <li class="item-nav">
                     <a href="./index.html" class="link-nav">Studio</a>
@@ -32,18 +33,56 @@
         </nav>
         <address class="adr">
             <ul class="list-adr">
-                <li>
+                <li class="item-adr">
                     <a href="mailto:info@devstudio.com" class="link-adr">info@devstudio.com</a>
                 </li>
-                <li>
+                <li class="item-adr">
                     <a href="tel:+110001111111" class="link-adr">+11 (000) 111-11-11</a>
                 </li>
             </ul>
         </address>
+        <button type="button" class="btn-menu"><svg class="icon-menu" width="24" height="24"><use href="./images/symbol-defs.svg#icon-menu"></use></svg></button>
+        <div class="menu">
+            <button type="button" class="close-menu"><svg class="modal-btn-icon" width="8" height="8"><use href="./images/x.svg#icon-x"></use></svg></button>
+            <ul class="list-nav-menu">
+                <li class="item-nav-menu">
+                    <a href="./index.html" class="link-nav-menu">Studio</a>
+                </li>
+                <li class="item-nav-menu">
+                    <a href="#portfolio" class="link-nav-menu">Portfolio</a>
+                </li>
+                <li class="item-nav-menu">
+                    <a href="" class="link-nav-menu">Contacts</a>
+                </li>
+            </ul>
+
+            <ul class="list-adr-menu">
+                <li class="item-adr-menu">
+                    <a href="mailto:info@devstudio.com" class="link-adr-menu">info@devstudio.com</a>
+                </li>
+                <li class="item-adr-menu">
+                    <a href="tel:+110001111111" class="link-adr-menu">+11 (000) 111-11-11</a>
+                </li>
+            </ul>
+            <ul class="social-list-team social-menu">
+                <li class="item-social-team"><a class="link-team-social" href="" target="_blank" rel="noopener noreferrer"><svg class="icon-social-team" width="16" height="16">
+                    <use href="./images/icons.svg#icon-instagram-2"></use>
+                </svg></a></li>
+                <li class="item-social-team"><a class="link-team-social" href="" target="_blank" rel="noopener noreferrer"><svg class="icon-social-team" width="16" height="16">
+                    <use href="./images/icons.svg#icon-twitter-1"></use>
+                </svg></a></li>
+                <li class="item-social-team"><a class="link-team-social" href="" target="_blank" rel="noopener noreferrer"><svg class="icon-social-team" width="16" height="16">
+                    <use href="./images/icons.svg#icon-facebook-1"></use>
+                </svg></a></li>
+                <li class="item-social-team"><a class="link-team-social" href="" target="_blank" rel="noopener noreferrer"><svg class="icon-social-team" width="16" height="16">
+                    <use href="./images/icons.svg#icon-linkedin-1"></use>
+                </svg></a></li>
+            </ul>
+        </div>
         </div> 
     </header>
 
-    <main>
+      <main>
       
         <section class="stud-sect"> 
             <div class="container  cont-stud-sect"> 
@@ -52,13 +91,13 @@
             </div>
         </section>
     
-        <section class="advantages">
+           <section class="advantages">
             <div class="container">
             <h2 class="visually-hidden">Advantages</h2>
 
             <ul class="list-advan">
                 <li class="item-advan">
-                    <div class="icon-block">
+                    <div class="icon-block ">
                     <svg class="icon-advan" width="64" height="64">
                         <use href="./images/symbol-defs.svg#icon-antenna-1"></use>
                     </svg>
@@ -109,8 +148,8 @@
         </div>
         </section>
 
-        <section class="our-team" id="portfolio">
-            <div class="container cont-team">
+     <section class="our-team" id="portfolio">
+            <div class="cont-team container">
 
             <h2 class="title-team">Our Team</h2>
             <ul class="list-team">
@@ -202,7 +241,7 @@
         </div>
         </section>
 
-        <section class="our-portfolio">
+      <section class="our-portfolio">
             <div class="container cont-port">
             <h2 class="title-port">Our Portfolio</h2>
             <ul class="list-port">
@@ -301,7 +340,7 @@
         </ul>
     </div>
      <div class="modal-footer">
-        <p class="cont-footer-social-text modal-footer-text">Subscribe</p>
+        <p class="modal-footer-text">Subscribe</p>
         <form class="modal-form-footer">
             <label class="modal-label-footer">
                 <input class="modal-input-footer" type="email"  placeholder="E-mail" name="user-subscribe">    
@@ -352,7 +391,7 @@
             </div>
             <div class="modal-field-checbox">
                 <input class="visually-hidden modal-check" name="user-privacy" type="checkbox" id="user-privacy"  value="true" required>
-                <label class="modal-label-policy" for="user-privacy"><span class="span-modal-privacy"><svg width="10" height="8" class="icon-check" ><use href="./images/check.svg#icon-check"></use></svg></span>I accept the terms and conditions of the <a href="" class="link-chekbox">Privacy Policy</a></label>
+                <label class="modal-label-policy" for="user-privacy"><span class="span-modal-privacy"><svg width="10" height="8" class="icon-check" ><use href="./images/check.svg#icon-check"></use></svg></span><div>I accept the terms and conditions of the <a href="" class="link-chekbox">Privacy Policy</a></div></label>
                     
             </div>
                 <button class="modal-form-btn" type="submit">Send</button>
